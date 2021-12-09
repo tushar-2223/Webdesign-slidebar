@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Slab:wght@800&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Comforter', cursive;
+font-family: 'Comforter', cursive;
+   font-family: 'Roboto Slab', serif;
 }
 body {
   
