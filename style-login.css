@@ -1,0 +1,90 @@
+body {
+    /* background-color:rgb(205, 200, 211); */
+    background-image: url('238870.jpg');
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box {
+    /* border: 3px solid rgb(196, 175, 175); */
+    box-shadow: 0 0 12px 8px rgba(3, 255, 129, 0.712);
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    border-radius: 40px;
+}
+/*login text*/
+.box h1 {
+    color: rgb(55, 2, 245);
+    text-transform: uppercase;/*capital letter*/
+    font-weight: 1000;
+    transition: .25s;
+   
+}
+.box h1:hover {
+    color: rgb(230, 7, 7);
+    text-transform: uppercase;/*capital letter*/
+    font-weight: 1000;
+    transition: .25s;
+
+}
+
+/*only box text css */
+.box input[type="text"],
+.box input[type="password"] {
+    border: 4px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 247, 95);
+    padding: 14px 10px;
+    width: 350px;
+    outline: none;
+    color: white;
+    border-radius: 25px;/*border circel*/
+    transition: 0.25s;/*border animation*/
+
+    
+}
+.box input[type="text"]::placeholder
+{
+    font-size: larger;
+    font-weight: 900 ;
+    color: rgb(238, 255, 0);
+}
+/*focus = cursior animation,hover= aro animation*/
+.box input[type="text"]:hover,
+.box input[type="password"]:hover {
+    width: 280px;
+    border-color: rgb(245, 0, 12);
+    
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 179, 250);
+    padding: 14px 40px;
+    /*change layout*/
+    outline: none;
+    color: rgb(57, 4, 248);
+    font-size: large;
+    font-weight: 1000;
+    border-radius: 25px;
+    /*border circel*/
+    transition: .25s;
+}
+.box input[type="submit"]:hover {
+    background-color: rgb(0, 193, 252);
+
+}
